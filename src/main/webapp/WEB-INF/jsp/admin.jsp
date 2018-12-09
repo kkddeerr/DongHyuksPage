@@ -5,8 +5,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
+    <script src="js/lib/jquery-3.2.0.min.js"></script>
+    <script src="js/lib/ckeditor/ckeditor.js"></script>
+    
+    <!-- page controller js -->
+    <script src="js/adminCtrl.js"></script>
+
 </head>
 <body>
-	ADMIN PAGE
+	<textarea name="editor1" id="editor1" rows="10" cols="80"></textarea>
+	
 </body>
 </html>
